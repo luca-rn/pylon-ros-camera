@@ -83,7 +83,7 @@ def generate_launch_description():
 
     declare_camera_id_cmd = DeclareLaunchArgument(
         'camera_id',
-        default_value='my_camera',
+        default_value='BaslerAce1',
         description='Id of the camera. Used as node namespace.'
     )
 
@@ -102,7 +102,7 @@ def generate_launch_description():
     declare_startup_user_set_cmd = DeclareLaunchArgument(
         'startup_user_set',
         # possible value: Default, UserSet1, UserSet2, UserSet3, CurrentSetting
-        default_value='CurrentSetting',
+        default_value='UserSet3',
         description='Specific user set defining user parameters to run the camera.'
     )
 
