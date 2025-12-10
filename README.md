@@ -109,5 +109,9 @@ Use `ros2 topic list` in another terminal to check if nodes run correctly and `r
 - Changes in launch and .yaml files in pylon_ros2_camera_wrapper for RBG encoding and device name
 - Our own installation instructions in this readme file
 
+# Resources Used
+[_Interfacing Basler Cameras with ROS 2_](https://rjwilson.com/wp-content/uploads/Interfacing-Basler-Cameras-with-ROS-2-RJ-Wilson-Inc.pdf)\
+[Basler Software Downloads](https://www.baslerweb.com/en/downloads/software/)\
+\
 For more extensive documentation, see the [original repository from Basler](https://github.com/basler/pylon-ros-camera.git)
 
