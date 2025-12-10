@@ -40,7 +40,7 @@ installed. If you need to install a suitable pylon version, continue with the fo
 ### Setting up the pylon camera driver in ROS 2
 1. Clone this repository into your src folder
   ```bash
-  cd ~/dev_ws/src/ && git clone https://github.com/luca-rn/pylon-ros-camera.git
+  cd ~/dev_ws/src/ && git clone https://github.com/luca-rn/pylon-ros-camera.git pylon_ros2_camera
   ```
 2. (Not Tested) Clone any necessary additional packages. For example packages from ros-perception. Example given by basler is image_common.git.
   ```bash
